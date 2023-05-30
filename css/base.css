@@ -5,6 +5,7 @@
 @import '../common.blocks/logo.css';
 @import '../common.blocks/nav.css';
 @import '../common.blocks/header/header.css';
+@import '../common.blocks/footer.css';
 
 :root {
   --c-white: #ffffff;
