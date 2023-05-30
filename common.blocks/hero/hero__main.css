@@ -1,0 +1,20 @@
+.hero__main {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-content: center;
+  justify-items: start;
+  column-gap: 1.25rem;
+  width: 35.44rem;
+}
+
+.hero__heading {
+  grid-column: span 2;
+  font: var(--font-xxl);
+}
+
+.hero__text {
+  margin: 1rem 0 2.5rem;
+  grid-column: span 2;
+  font: var(--font-xs);
+  color: var(--c-light-gray);
+}

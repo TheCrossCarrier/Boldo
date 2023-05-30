@@ -1,0 +1,17 @@
+@import 'button_colored.css';
+@import 'button_transparent.css';
+
+.button {
+  --button-transition-timeout: 300ms;
+
+  padding: 0.945em 2.91em;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.375em;
+  border-radius: 2em;
+
+  font-size: var(--fs-s);
+  font-weight: var(--fw-bold);
+  text-align: center;
+}

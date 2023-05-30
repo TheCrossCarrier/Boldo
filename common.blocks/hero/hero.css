@@ -1,0 +1,23 @@
+@import 'hero__main.css';
+@import 'hero__aside.css';
+
+.hero {
+  position: relative;
+  margin-top: 4rem;
+  display: flex;
+  justify-content: space-between;
+  color: var(--c-white);
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  left: calc(100% - 523px);
+  bottom: calc(100% - 342px);
+
+  width: 80.81rem;
+  height: 80.81rem;
+  border-radius: 50%;
+  background: #1c3d5b;
+}

@@ -1,0 +1,30 @@
+.nav__list {
+  padding: 0 0.375rem;
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+  font-weight: var(--fw-semibold);
+}
+
+.nav__link.button {
+  background: var(--c-white);
+  font-size: inherit;
+  transition: var(--button-transition),
+    background-color var(--button-transition-timeout);
+}
+
+.nav__link.button:focus {
+  background: var(--c-green);
+  color: var(--c-white);
+}
+
+@media (hover: hover) {
+  .nav__link:hover {
+    color: var(--c-gray-blue);
+  }
+
+  .nav__link.button:hover {
+    background: var(--c-green);
+    color: var(--c-white);
+  }
+}

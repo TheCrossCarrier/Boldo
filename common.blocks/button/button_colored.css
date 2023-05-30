@@ -1,0 +1,17 @@
+.button_colored {
+  --button-transition: color var(--button-transition-timeout);
+
+  background: var(--c-green);
+  color: var(--c-dark-blue);
+  transition: var(--button-transition);
+}
+
+.button_colored:focus {
+  color: var(--c-white);
+}
+
+@media (hover: hover) {
+  .button_colored:hover {
+    color: var(--c-white);
+  }
+}

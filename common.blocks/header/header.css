@@ -1,0 +1,17 @@
+@import 'header_dark.css';
+@import 'header_light.css';
+@import 'header__wrapper.css';
+
+.header {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: space-between;
+  align-content: end;
+  align-items: center;
+  font: var(--font-xs);
+}
+
+.header,
+.header .logo__icon {
+  transition: color 200ms;
+}

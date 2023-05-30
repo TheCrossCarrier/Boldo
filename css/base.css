@@ -1,0 +1,48 @@
+@import 'reset.css';
+@import '../common.blocks/boldo-icon.css';
+@import '../common.blocks/button/button.css';
+@import '../common.blocks/container.css';
+@import '../common.blocks/logo.css';
+@import '../common.blocks/nav.css';
+@import '../common.blocks/header/header.css';
+
+:root {
+  --c-white: #ffffff;
+  --c-light-gray: #f1f1f1;
+  --c-gray-blue: #8fb6d5;
+  --c-gray: #777777;
+  --c-green: #65e4a3;
+  --c-light-blue: #0dbbfc;
+  --c-dark-blue: #0a2640;
+  --c-black: #000000;
+
+  --fw-regular: 400;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+
+  --fs-xs: 1rem;
+  --fs-s: 1.25rem;
+  --fs-m: 1.5rem;
+  --fs-l: 1.75rem;
+  --fs-xl: 2.25rem;
+  --fs-xxl: 3rem;
+  --fs-xxxl: 4rem;
+
+  --ff-common: 'Open Sans', sans-serif;
+  --ff-heading: 'Manrope', sans-serif;
+
+  --font-xs: var(--fw-regular) var(--fs-xs) / 1.75 var(--ff-common);
+  --font-s: var(--fw-regular) var(--fs-s) / 1.6 var(--ff-common);
+  --font-m: var(--fw-regular) var(--fs-m) / 1.5 var(--ff-common);
+  --font-l: var(--fw-regular) var(--fs-l) / 1.71 var(--ff-heading);
+  --font-xl: var(--fw-regular) var(--fs-xl) / 1.56 var(--ff-heading);
+  --font-xxl: var(--fw-regular) var(--fs-xxl) / 1.5 var(--ff-heading);
+  --font-xxxl: var(--fw-regular) var(--fs-xxxl) / 1.31 var(--ff-heading);
+}
+
+body {
+  background: var(--c-dark-blue);
+  font: var(--font-s);
+  color: var(--c-text);
+  overflow-x: hidden;
+}

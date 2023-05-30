@@ -1,0 +1,4 @@
+.header_light,
+.header_light .logo__icon {
+  color: var(--c-dark-blue);
+}

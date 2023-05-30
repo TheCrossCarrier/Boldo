@@ -1,0 +1,18 @@
+.button_transparent {
+  --button-transition: background-color var(--button-transition-timeout);
+
+  border: 2px solid currentColor;
+  background: transparent;
+  color: var(--c-white);
+  transition: var(--button-transition);
+}
+
+.button_transparent:focus {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+@media (hover: hover) {
+  .button_transparent:hover {
+    background: rgba(255, 255, 255, 0.2);
+  }
+}

@@ -1,0 +1,14 @@
+.logo {
+  display: inline-block;
+  font-size: 2.7rem;
+  font-weight: var(--fw-bold);
+  white-space: nowrap;
+}
+
+.logo__link {
+  display: inline-block;
+}
+
+.logo__icon {
+  margin-inline-end: 0.26em;
+}
